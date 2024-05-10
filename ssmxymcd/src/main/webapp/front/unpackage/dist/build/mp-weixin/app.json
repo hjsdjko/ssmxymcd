@@ -1,0 +1,74 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/gongyuguanliyuan/list",
+    "pages/gongyuguanliyuan/add-or-update",
+    "pages/gongyuguanliyuan/detail",
+    "pages/xuesheng/list",
+    "pages/xuesheng/add-or-update",
+    "pages/xuesheng/detail",
+    "pages/loucengxinxi/list",
+    "pages/loucengxinxi/add-or-update",
+    "pages/loucengxinxi/detail",
+    "pages/yongdianqingkuang/list",
+    "pages/yongdianqingkuang/add-or-update",
+    "pages/yongdianqingkuang/detail",
+    "pages/jiaofeiqingdan/list",
+    "pages/jiaofeiqingdan/add-or-update",
+    "pages/jiaofeiqingdan/detail",
+    "pages/dianfeitongji/list",
+    "pages/dianfeitongji/add-or-update",
+    "pages/dianfeitongji/detail",
+    "pages/gongyubaoxiu/list",
+    "pages/gongyubaoxiu/add-or-update",
+    "pages/gongyubaoxiu/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/pay-confirm/pay-confirm",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "学生公寓电费信息管理系统小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#FFEA00",
+    "borderStyle": "black",
+    "backgroundColor": "#990033",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/yongdianqingkuang/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "用电情况"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
